@@ -1,0 +1,18 @@
+{
+  "Resources": {
+    "PolicyLogicalIdPlaceholder": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyName": "PolicyNamePlaceholder",
+        "Roles": [
+          {
+            "Ref": "RoleName"
+          }
+        ],
+        "PolicyDocument": "PolicyDocumentPlaceholder"
+      }
+    }
+  },
+  "Description": "DescriptionPlaceholder",
+  "Parameters": "ParametersPlaceholder"
+}
